@@ -1,0 +1,83 @@
+body {
+  background-color: darkslateblue;
+}
+
+header {
+  text-align: center;
+  color: lightblue;
+}
+
+footer {
+  color: aqua;
+  text-align: center;
+}
+
+.profile-pic {
+  background-color: lavender;
+  height: 285px;
+  width: 155px;
+  margin-right: 20px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: darkorchid;
+}
+
+.bio {
+  background-color: cornflowerblue;
+  width: 100%;
+  border-style: double;
+  border-width: 12px;
+  padding-left: 10px;
+  border-color: darkorchid;
+  color: ivory;
+}
+
+.name {
+  font-size: 35;
+  font-family: Apple Chancery, cursive;
+  color: aqua;
+}
+
+#info, #tech {
+  display: flex;
+}
+
+#interest {
+  background-color: beige;
+  padding: 5px 15px 10px 15px;
+}
+
+.topic {
+  color: blue;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.desc {
+  padding-left: 20px;
+}
+
+time {
+  font-size: 25;
+  color: blue;
+}
+
+figure {
+  max-width: 150px;
+  width: 20%;
+  margin-left: 0px;
+}
+
+figcaption {
+  text-align: left;
+  color: lightgrey;
+  background-color: darkslateblue;
+  position: relative;
+  top: -15px;
+  opacity: 0.75;
+}
+
+figure > img {
+  width: 150px;
+  height: 150px;
+}
